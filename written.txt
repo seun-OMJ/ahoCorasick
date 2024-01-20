@@ -1,0 +1,21 @@
+#--------------------------------------------
+# NAME: SEUN OMOJOLA
+# STUDENT NUMBER: 7880480 
+# COURSE: COMP 4820
+#---------------------------------------------
+
+
+1a. start codon(ATG) = 111821 times; 
+    stop codon (TAA) = 8458 times; (TAG) = 30102; (TGA) = 115364
+
+1b. No, we cannot infer the number of open reading frames based on the frequency 
+of start and stop codons alone. To identify the open reading frames, the entire
+sequence in question will have to be analyzed more in depth.
+
+
+2. searching exactly one pattern that is one charcter long results in similar running times.
+
+3. Number of patterns to be searched results in having longer brute force 
+running times since for each pattern, the whole sequence will have to be checked
+while the aho corasick's running time is not affected much since it is based on the 
+construction of a prefix trie
